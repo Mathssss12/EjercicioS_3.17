@@ -163,6 +163,3 @@ public class PerfilMedico {
         JOptionPane.showMessageDialog(null, mensajes);
     }
 
-
-}
-
