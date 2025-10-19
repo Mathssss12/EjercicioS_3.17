@@ -1,4 +1,4 @@
-/*
+*
 Un tema relacionado con la salud que ha estado últimamente en las noticias es la computarización de los
 registros médicos. Esta posibilidad se está tratando con mucho cuidado, debido a las delicadas cuestiones
 de privacidad y seguridad, entre otras cosas. [Trataremos esas cuestiones en ejercicios posteriores].
@@ -74,9 +74,7 @@ void main() {
                 System.out.print("Ingrese el peso del paciente (kg):\n ");
                 double peso = Double.parseDouble(sc.nextLine().trim());
                 perfil1.setPeso(peso);
-
                 break;
-
             case 2:
                 perfil1.ImprimirDatosPaciente();
 
@@ -90,11 +88,12 @@ void main() {
                 perfil1.ImprimirDatosBMI();
                 break;
         }
-
     } while (opc != 5);
 
 
 
 
+
+}
 
 }
